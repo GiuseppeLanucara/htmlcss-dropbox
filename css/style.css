@@ -194,14 +194,14 @@ h2{
 .background-section{
     background-color: aqua;
     /* DEBUG */
-    height: 700px;
+    
 }
 
 .row-background{
     display: flex;
     justify-content: space-between;
     /* DEBUG */
-    height: 600px ;
+    
 }
 
 .col-background{
@@ -211,3 +211,8 @@ h2{
     background-color: darkgreen;
     border: 1px solid white;
 }
+
+.overflow{
+    overflow: auto;
+}
+
