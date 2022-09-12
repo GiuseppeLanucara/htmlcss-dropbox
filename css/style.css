@@ -193,5 +193,21 @@ h2{
 
 .background-section{
     background-color: aqua;
+    /* DEBUG */
+    height: 700px;
+}
+
+.row-background{
+    display: flex;
+    justify-content: space-between;
+    /* DEBUG */
+    height: 600px ;
+}
+
+.col-background{
+    width: calc(100% / 3 - 10px);
+    /* DEBUG */
     height: 500px;
+    background-color: darkgreen;
+    border: 1px solid white;
 }
