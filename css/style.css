@@ -22,12 +22,12 @@ h1{
 }
 
 h2{
-    text-align: center;
+    text-align: left;
     font-size: 30px;
     width: 85%;
     margin: auto;
     padding-top: 4em;
-    margin-left: 40px;
+    margin-left: 4em;
 }
 
 header{
@@ -116,3 +116,23 @@ header{
     font-size: 40px;
 }
 
+.fatturazione{
+    margin-left: 120px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.row2{
+    display: flex;
+    justify-content: space-between;
+    background-color: orange;
+    
+}
+
+.col{
+    display: flex;
+    width: calc(100% / 3 - 10px);
+    /* DEBUG */
+    height: 500px;
+    background-color: black;
+}
