@@ -13,23 +13,6 @@ img{
     width: 100%;
 }
 
-h1{
-    text-align: center;
-    font-size: 50px;
-    width: 85%;
-    margin: auto;
-    padding-top: .5em;
-}
-
-h2{
-    text-align: left;
-    font-size: 30px;
-    width: 85%;
-    margin: auto;
-    padding-top: 4em;
-    margin-left: 4em;
-}
-
 header{
     display: flex;
     justify-content: space-between;
@@ -67,6 +50,12 @@ header{
     width: 20%;
 }
 
+.background{
+    background-color: aqua;
+    width: 100%;
+    height: 33em;
+}
+
 .main-container{
     width: 70%;
     margin: 3em  auto;
@@ -74,16 +63,18 @@ header{
     background-color: orange;
 }
 
-.background{
-    background-color: aqua;
-    width: 100%;
-    height: 33em;
-}
-
 .jumbotron{
     height: 33em;
     background-color: aqua;
     position: relative;
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    width: 85%;
+    margin: auto;
+    padding-top: .5em;
 }
 
 .row{
@@ -96,10 +87,6 @@ header{
 
 .col1{
     width: 20%;
-}
-
-.col2{
-    width: 60%;
 }
 
 .bluebutton{
@@ -115,15 +102,25 @@ header{
     font-size: 40px;
 }
 
+.col2{
+    width: 60%;
+}
+
+h2{
+    text-align: left;
+    font-size: 30px;
+    margin: auto;
+    padding-top: 4em; 
+}
+
 .fatturazione{
-    margin-left: 120px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
 .row2{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: orange;
     
 }
@@ -149,4 +146,42 @@ header{
 .col3{
     width: 100%;
     border: 1px solid palevioletred;
+}
+
+.row4{
+    margin-top: 3em;
+    /* DEBUG */
+    height: 300px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.col4-1{
+    width: 60%;
+    background-color: cornflowerblue;
+    border: 1px solid white;
+}
+
+.col4-2{
+    width: 40%;
+    background-color: cornflowerblue;
+    border: 1px solid white;
+}
+
+.row5{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.col5{
+    display: flex;
+    width: calc(100% / 3 - 10px);
+    /* DEBUG */
+    height: 400px;
+    background-color: black;
+    border: 1px solid white;
+    margin: 5px;
 }
