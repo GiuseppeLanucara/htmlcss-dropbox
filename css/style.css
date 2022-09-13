@@ -11,6 +11,7 @@ html{
 
 img{
     width: 100%;
+    max-width: 1200px;
 }
 
 header{
@@ -21,11 +22,10 @@ header{
     top: 0;
     left: 0;
     align-items: center;
-    /* DEBUG */
     width: 100%;
     height: 50px;
-    background-color: yellow;
-    
+    background-color: white;
+   
 }
 
 .header-left{
@@ -33,10 +33,14 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* DEBUG */
-    background-color: yellowgreen;
+    background-color: white;
+    width: 30%;
     height: 50px;
-    width: 20%;
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
 }
 
 .header-right{
@@ -44,14 +48,15 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* DEBUG */
-    background-color: yellowgreen;
+    background-color: white;
     height: 50px;
-    width: 20%;
+    width: 30%;
+    list-style-type: none;
 }
 
+
 .background{
-    background-color: aqua;
+    background-color: #B4D0E7;
     width: 100%;
     height: 33em;
 }
@@ -59,13 +64,12 @@ header{
 .main-container{
     width: 70%;
     margin: 3em  auto;
-    /* DEBUG */
-    background-color: orange;
+    background-color: white;
 }
 
 .jumbotron{
     height: 33em;
-    background-color: aqua;
+    background-color: #B4D0E7;
     position: relative;
 }
 
@@ -90,12 +94,21 @@ h1{
 }
 
 .bluebutton{
-    background-color: rgb(0, 140, 255);
+    background-color: #0061FF;
     color: white;
     padding: 5px;
     margin-top: 15px;
     margin-bottom: 15px;
     border: none;
+}
+
+.headbutton{
+    margin-right: 10px;
+    padding-left: .5em;
+}
+
+h5{
+    font-weight: 500;
 }
 
 #arrow{
@@ -116,21 +129,103 @@ h2{
 .fatturazione{
     margin-top: 20px;
     margin-bottom: 20px;
+    padding: .5em;
+}
+
+#abbonamento{
+    margin-right: 25px;
 }
 
 .row2{
     display: flex;
-    justify-content: space-around;
-    background-color: orange;
-    
+    justify-content: space-around; 
 }
 
 .col{
     display: flex;
+    flex-direction: column;
     width: calc(100% / 3 - 10px);
     /* DEBUG */
-    height: 500px;
-    background-color: black;
+    
+    background-color:white;
+}
+
+.col-top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* DEBUG */
+    padding: .5em;
+    width: 100%;
+    background-color: white;
+    border: 1px solid grey;
+}
+
+.col-button{
+    display: flex;
+    justify-content: center;
+}
+
+.col-button button{
+    width: 70%;
+    margin-top: 1.5em;
+    background-color: #0061FF;
+    color: white;
+    border: none;
+    padding: .7em;
+}
+
+.col-big{
+    border: 1px solid grey;
+}
+
+.col-big ul{
+    list-style-type: none;
+    margin-left: 2em;
+    margin-top: 1.5em;
+}
+
+.col-big ul li{
+    margin-bottom: 1em;
+}
+
+.tab-title{
+    padding-top: 1em;
+    padding-left: 1em;
+}
+
+.price{
+    font-size: medium;
+    padding-left: 2em;
+}
+
+.grey{
+    color: grey;
+    font-size: smaller;
+    padding-top: .2em;
+    padding-left: 2.5em;
+    font-weight: 200;
+}
+
+.users{
+    margin-left: 5px;
+}
+
+.buy-now{
+    display: inline-block;
+    margin-left: 4em;
+    margin-top: 1em;
+}
+
+.buy-now a{
+    text-decoration: underline;
+}
+
+.hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 4em;
+    width: 15%;
 }
 
 .row3{
@@ -192,7 +287,7 @@ h2{
 }
 
 .background-section{
-    background-color: aqua;
+    background-color: #B4D0E7;
     /* DEBUG */
     
 }
@@ -218,7 +313,7 @@ h2{
 
 .blue-banner{
     width: 100%;
-    background-color: aqua;
+    background-color: #B4D0E7;
     display: flex;
     justify-content: space-around;
     align-items: center;
