@@ -234,6 +234,12 @@ li i{
     width: 15%;
 }
 
+.whitehr{
+    color: white;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
 .sub-title{
     font-weight: bold;
 }
@@ -438,7 +444,43 @@ footer{
 
 .footer-links{
     width: 100%;
-    /* DEBUG */
-    height: 400px;
     background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row-links{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.col-links{
+    width: calc(80% / 5 - 10px);
+    padding: 1em;
+    color: white;
+}
+
+.col-links ul li{
+    padding: .5em;
+    color: white;
+    margin-left: 0px;
+}
+
+.col-links ul li a{
+    color: white;
+}
+
+h4{
+    padding-top: 3em;
+    margin-left: 7px;
+    margin-bottom: 10px;
+}
+
+.language{
+    color: grey;
+    font-size: small;
+    font-weight: normal;
 }
