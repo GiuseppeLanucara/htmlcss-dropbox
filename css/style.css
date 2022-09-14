@@ -14,6 +14,22 @@ img{
     max-width: 1200px;
 }
 
+.green{
+    background-color: #a2d39b;
+}
+
+.brown{
+    background-color: #61082b;
+}
+
+.blue{
+    background-color: #0093ce;
+}
+
+.red{
+    background-color: #ff1c1c;
+}
+
 header{
     display: flex;
     justify-content: space-between;
@@ -328,6 +344,10 @@ li i{
     margin-bottom: 10px;
 }
 
+.section3{
+    margin-bottom: 100px;
+}
+
 .link{
     margin-top: 25px;
     margin-bottom: 20px;
@@ -346,7 +366,6 @@ li i{
 .col-background{
     width: calc(100% / 3);
     /* DEBUG */
-    height: 500px;
     background-color: white
 }
 
@@ -355,9 +374,16 @@ li i{
     flex-wrap: wrap;
 }
 
-.inner-col{
-
+.aaa{
+    margin-top: 50px;
+    padding: 1em;
 }
+
+.inner-col{
+    width: 50%;
+    padding: 2em;
+}
+
 /* <!-- QUADRATI DENTRO IL QUADRATO --> */
 
 
@@ -367,19 +393,19 @@ li i{
 
 .logo-company{
     width: 50%;
-    margin-left: 10px;
-    margin-top: 20px;
+    margin-left: 20px;
+    margin-top: 30px;
 }
 
 .col-background p{
     width: 80%;
-    margin-left: 10px;
-    margin-top: 20px;
+    margin-left: 20px;
+    margin-top: 30px;
     margin-bottom: 30px;
 }
 
 .col-background  span{
-    margin-left: 10px;
+    margin-left: 20px;
 }
 
 .blue-banner{
