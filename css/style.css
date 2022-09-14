@@ -240,6 +240,12 @@ li i{
     margin-bottom: 30px;
 }
 
+#logo-hr{
+    border: 1px solid grey;
+    margin-top: 20px;
+    width: 40%;
+}
+
 .sub-title{
     font-weight: bold;
 }
@@ -337,15 +343,40 @@ li i{
 }
 
 .col-background{
-    width: calc(100% / 3 - 10px);
+    width: calc(100% / 3);
     /* DEBUG */
     height: 500px;
-    background-color: darkgreen;
-    border: 1px solid white;
+    background-color: white
+}
+
+.inner-row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.inner-col{
+    
 }
 
 .overflow{
     overflow: auto;
+}
+
+.logo-company{
+    width: 50%;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.col-background p{
+    width: 80%;
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.col-background  span{
+    margin-left: 10px;
 }
 
 .blue-banner{
