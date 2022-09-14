@@ -45,11 +45,34 @@ img{
 }
 /* /UTILITY */
 
+/* ANIMAZIONI */
 .header-left li a:hover{
     text-decoration: underline;
     color: black;
-    
 }
+
+button:hover{
+    transform: scale(.9);
+    background-color: #0061FF;
+    opacity: .7;
+}
+
+#team-button:hover{
+    transform: scale(1.1);
+    background-color: #0061FF;
+    opacity: .7;
+}
+
+input:hover{
+    color: #0061FF;
+    transform: scale(1.1);
+}
+
+.col-links ul li a:hover{
+    text-decoration: underline;
+    color: white;
+}
+/* /ANIMAZIONI */
 
 /* HEADER */
 header{
