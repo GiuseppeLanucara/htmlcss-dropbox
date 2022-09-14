@@ -14,6 +14,7 @@ img{
     max-width: 1200px;
 }
 
+/* UTILITY */
 .green{
     background-color: #a2d39b;
 }
@@ -30,6 +31,21 @@ img{
     background-color: #ff1c1c;
 }
 
+.white{
+    margin-left: 10px;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+.language{
+    color: grey;
+    font-size: small;
+    font-weight: normal;
+}
+/* /UTILITY */
+
+/* HEADER */
 header{
     display: flex;
     justify-content: space-between;
@@ -69,7 +85,7 @@ a{
     width: 30%;
     list-style-type: none;
 }
-
+/* /HEADER */
 
 .background{
     background-color: #B4D0E7;
@@ -77,6 +93,7 @@ a{
     height: 33em;
 }
 
+/* CONTAINER PRINCIPALE  */
 .main-container{
     width: 70%;
     margin: 3em  auto;
@@ -89,6 +106,7 @@ a{
     position: relative;
 }
 
+/* TITOLO */
 h1{
     text-align: center;
     font-size: 50px;
@@ -97,6 +115,7 @@ h1{
     padding-top: .5em;
 }
 
+/* ROW JUMBOTRON */
 .row{
     display: flex;
     position: absolute;
@@ -105,6 +124,7 @@ h1{
     margin-top: 9em;
 }
 
+/* COL JUMBOTRON */
 .col1{
     width: 20%;
 }
@@ -142,27 +162,32 @@ h2{
     padding-top: 4em; 
 }
 
+/* RADIO BUTTON */
 .fatturazione{
     margin-top: 20px;
     margin-bottom: 20px;
     padding: .5em;
 }
 
+/* DESCRIZIONE */
 #abbonamento{
     margin-right: 25px;
 }
 
+/* ROW TABELLE PIANI DI ABBONAMENTO */
 .row2{
     display: flex;
     justify-content: space-around; 
 }
 
+/* COL TABELLE PIANI DI ABBONAMENTO */
 .col{
     display: flex;
     flex-direction: column;
     width: calc(100% / 3 - 10px);
 }
 
+/* PARTE SUPERIORE COL PIANI DI ABBONAMENTO */
 .col-top{
     display: flex;
     justify-content: center;
@@ -188,6 +213,7 @@ h2{
     padding: .7em;
 }
 
+/* PARTE INFERIORE TABELLE PIANI DI ABBONAMENTO */
 .col-big{
     border: 1px solid grey;
     height: 800px;
@@ -276,12 +302,14 @@ li i{
     color: #0061FF;
 }
 
+/* ROW SEZIONE CON TITOLO TEAM   */
 .team{
     width: 100%;
     margin-top: 60px;
     border: 1px solid grey;
 }
 
+/* ICONA E TITOLO SEZIONE TEAM */
 .logo-team{
     display: flex;
     justify-content: center;
@@ -320,6 +348,7 @@ li i{
     padding-right: 2em;
 }
 
+/* ROW PARTE CON IMMAGINE GRANDE E DESCRIZIONE */
 .row4{
     display: flex;
     margin-top: 3em;
@@ -346,13 +375,8 @@ li i{
     width: 80%;
 }
 
-.white{
-    margin-left: 10px;
-    background-color: white;
-    color: black;
-    border: 1px solid black;
-}
 
+/* ROW SECONDA SEZIONE */
 .row5{
     display: flex;
     flex-wrap: wrap;
@@ -360,6 +384,7 @@ li i{
     margin-top: 20px;
 }
 
+/* COL CARD SECONDA SEZIONE */
 .col5{
     display: flex;
     flex-wrap: wrap;
@@ -367,21 +392,25 @@ li i{
     margin-bottom: 10px;
 }
 
+/* TITOLO CARD  */
 .img-title{
     font-size: 25px;
     font-weight: bold;
     margin-bottom: 10px;
 }
 
+/* SEZIONE 3 MARGIN */
 .section3{
     margin-bottom: 100px;
 }
 
+/* LINK TERZA SEZIONE */
 .link{
     margin-top: 25px;
     margin-bottom: 20px;
 }
 
+/* COLORE SEZIONE IN BACKGROUND  */
 .background-section{
     background-color: #B4D0E7;
 }
@@ -394,7 +423,6 @@ li i{
 
 .col-background{
     width: calc(100% / 3);
-    /* DEBUG */
     background-color: white
 }
 
@@ -420,10 +448,9 @@ li i{
     width: 50%;
     height: 250px;
 }
-
 /* <!-- QUADRATI DENTRO IL QUADRATO --> */
 
-
+/* REGOLA OVERFLOW APPLICATA AL QUADRATO CENTRALE CON PARAGRAFO */
 .overflow{
     overflow: auto;
 }
@@ -445,6 +472,7 @@ li i{
     margin-left: 20px;
 }
 
+/* SEZIONE CON SFONDO BACKGROUND E BOTTONE  */
 .blue-banner{
     width: 100%;
     background-color: #B4D0E7;
@@ -453,6 +481,7 @@ li i{
     align-items: center;
 }
 
+/* CONTENITORE DEI DUE DIV CON DENTRO FRASE E BOTTONE */
 .advise{
     margin-top: 100px;
     margin-bottom: 100px;
@@ -460,7 +489,7 @@ li i{
     display: flex;
     justify-content: space-between;
 }
-
+/* REGOLE APPLICATE ALLE DUE SEZIONI DI ADVISE */
 .bot{
     display: flex;
     justify-content: space-between;
@@ -493,6 +522,7 @@ li i{
     border: none;
 }
 
+/* CONTENITORE GENERALE FOOTER */
 footer{
     display: flex;
     flex-wrap: wrap;
@@ -500,6 +530,7 @@ footer{
     width: 100%;
 }
 
+/* PARTE SUPERIORE */
 .footer-up{
     width: 70%;
     display: flex;
@@ -508,6 +539,7 @@ footer{
     margin-top: 40px;
 }
 
+/* PARTE INFERIORE */
 .footer-down{
     width: 70%;
     display: flex;
@@ -517,6 +549,7 @@ footer{
     padding-bottom: 100px;
 }
 
+/* FAQ */
 .questions{
     width: 70%;
     padding-top: 2em;
@@ -539,6 +572,7 @@ footer{
     font-weight: bold;
 }
 
+/* LISTA CON COLONNE NEL FOOTER */
 .footer-links{
     width: 100%;
     background-color: black;
@@ -576,8 +610,3 @@ h4{
     margin-bottom: 10px;
 }
 
-.language{
-    color: grey;
-    font-size: small;
-    font-weight: normal;
-}
