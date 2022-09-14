@@ -187,6 +187,14 @@ h2{
     margin-bottom: 1em;
 }
 
+li{
+    display: flex;
+}
+
+li i{
+    margin-right: 5px;
+}
+
 .tab-title{
     padding-top: 1em;
     padding-left: 1em;
@@ -399,3 +407,4 @@ footer{
     display: flex;
     align-items: center;
 }
+
