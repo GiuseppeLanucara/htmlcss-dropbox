@@ -45,6 +45,12 @@ img{
 }
 /* /UTILITY */
 
+.header-left li a:hover{
+    text-decoration: underline;
+    color: black;
+    
+}
+
 /* HEADER */
 header{
     display: flex;
