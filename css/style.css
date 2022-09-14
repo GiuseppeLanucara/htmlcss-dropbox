@@ -221,6 +221,12 @@ li i{
     padding-left: 2em;
 }
 
+#team-p{
+    margin-left: 2em;
+    margin-top: 1em;
+    margin-bottom: 1.5em;
+}
+
 .grey{
     color: grey;
     font-size: smaller;
@@ -270,30 +276,53 @@ li i{
     color: #0061FF;
 }
 
-.row3{
-    display: flex;
-    flex-wrap: wrap;
+.team{
     width: 100%;
-    /* DEBUG */
-    height: 200px;
     margin-top: 60px;
+    border: 1px solid grey;
 }
 
-.col3{
-    width: 100%;
-    border: 1px solid grey;
+.logo-team{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: white;
+    padding: .5em;
+    border-bottom: 1px solid grey;
+}
+
+.logo-team span{
+    margin-left: 5px;
+}
+
+.descrizione-team{
+    display: flex;
+}
+
+.team-left{
+    width: 60%;
+}
+
+.team-right{
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+    width: 40%;
+}
+
+#team-button{
+    background-color: #0061FF;
+    color: white;
+    padding: .5em;
+    height: 40px;
+    margin-top: 2em;
+    margin-right: 2em;
+    padding-left: 2em;
+    padding-right: 2em;
 }
 
 .row4{
     display: flex;
     margin-top: 3em;
-    /* DEBUG */
-   
-    
     display: flex;
     justify-content: center;
 }
@@ -374,14 +403,22 @@ li i{
     flex-wrap: wrap;
 }
 
-.aaa{
-    margin-top: 50px;
-    padding: 1em;
+.marchi{
+    width: 150px;
+    height: 150px;
+}
+
+#flor{
+    width: 150px;
+    height: 50px;
 }
 
 .inner-col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 50%;
-    padding: 2em;
+    height: 250px;
 }
 
 /* <!-- QUADRATI DENTRO IL QUADRATO --> */
