@@ -337,6 +337,7 @@ li i{
     background-color: #B4D0E7;
 }
 
+/* QUADRATI DENTRO IL QUADRATO */
 .row-background{
     display: flex;
     justify-content: space-between;
@@ -355,8 +356,10 @@ li i{
 }
 
 .inner-col{
-    
+
 }
+/* <!-- QUADRATI DENTRO IL QUADRATO --> */
+
 
 .overflow{
     overflow: auto;
